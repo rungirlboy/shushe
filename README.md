@@ -1,14 +1,18 @@
 # 安徽财经大学宿舍管理系统 
 
-宿舍管理系统采用IntelliJ IDEA和WebStorm两款开发工具进行开发 
+宿舍管理系统采用**IntelliJ IDEA**和**WebStorm**两款开发工具进行开发 
 本系统采用B/S(浏览器/服务器)结构，系统支持Windows、Unix、Linux操作系统。 
-本系统数据库采用 MySQL。MySQL 为关系型数据库，它的运行机制为开发者提供了可靠的保障，其体积小、速度快、总体拥有成本低、性能卓越，因此使用MySQL 作为数据库比较合适。 
+
+本系统数据库采用 **MySQL**。MySQL 为关系型数据库，它的运行机制为开发者提供了可靠的保障，其体积小、速度快、总体拥有成本低、性能卓越，因此使用MySQL 作为数据库比较合适。 
+
 本系统采用Tomcat作为后台服务器。Tomcat 配置简便，并且是一个轻量级的开源的Web服务器。系统将Tomcat当作一个管理者，管理客户端的请求，对数据库进行管理，就像一个管家，所有事物都集中在Tomcat服务器，体现了软件开发的高内聚低耦合。 
-后端程序使用IntelliJ IDEA开发工具进行开发，利用Java 语言进行程序开发，利用Spring Boot框架整合MyBatis Plus、Redis等完成业务功能的实现，其内包含内嵌的Tomcat服务器，通过Navicat Premium工具连接到MySQL数据库对数据进行操作。
+
+后端程序使用IntelliJ IDEA开发工具进行开发，利用Java 语言进行程序开发，利用Spring Boot框架整合MyBatis Plus、Redis等完成业务功能的实现，其内包含内嵌的Tomcat服务器，通过Navicat Premium工具连接到MySQL数据库对数据进行操作。 
+
 前端程序使用Web Storm开发工具进行开发，利用html、javascript语言进行程序开发，利用VUE3框架整合Axios、Vue Router、Vue Store等完成页面展示功能的实现，其中UI框架选择的是Element Plus框架。
 
 
-该系统包括缴费模块、维修登记模块、卫生情况模块等功能。  
+**该系统包括缴费模块、维修登记模块、卫生情况模块等功能。**  
 通过该系统，宿舍管理员可以对学生信息进行增删改查。  
 ## 缴费模块
 学生可以通过该系统查看自己宿舍的电费适用情况并进行缴费。  
